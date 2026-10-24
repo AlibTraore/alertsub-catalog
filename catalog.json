@@ -23,7 +23,7 @@
       "category": "Streaming Vidéo",
       "priceEUR": 13.49,
       "priceXOF": 8500,
-      "defaultPrice": 13.49,
+      "defaultPrice": 8500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#E50914",
@@ -33,7 +33,8 @@
       "renewalLink": "https://maboutique.com/produit/netflix",
       "description": "Films, séries originales et documentaires illimités",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 8500
     },
     {
       "id": "disney-plus-premium",
@@ -41,7 +42,7 @@
       "category": "Streaming Vidéo",
       "priceEUR": 8.99,
       "priceXOF": 5900,
-      "defaultPrice": 11.99,
+      "defaultPrice": 5900,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#113CCF",
@@ -51,7 +52,8 @@
       "renewalLink": "https://maboutique.com/produit/disney-plus",
       "description": "Disney, Pixar, Marvel, Star Wars et National Geographic",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 5900
     },
     {
       "id": "prime-video",
@@ -59,7 +61,7 @@
       "category": "Streaming Vidéo",
       "priceEUR": 6.99,
       "priceXOF": 4500,
-      "defaultPrice": 6.99,
+      "defaultPrice": 4500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#00A8E1",
@@ -69,7 +71,8 @@
       "renewalLink": "https://maboutique.com/produit/prime-video",
       "description": "Films, séries exclusives et livraisons rapides Amazon",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 4500
     },
     {
       "id": "canal-plus",
@@ -77,7 +80,7 @@
       "category": "Streaming",
       "priceEUR": 22.99,
       "priceXOF": 15000,
-      "defaultPrice": 22.99,
+      "defaultPrice": 15000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#1A1A1A",
@@ -87,7 +90,8 @@
       "renewalLink": "https://www.canalplus.com",
       "description": "Cinéma récent, séries exclusives et grands rendez-vous sportifs",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 15000
     },
     {
       "id": "apple-tv",
@@ -95,7 +99,7 @@
       "category": "Streaming",
       "priceEUR": 9.99,
       "priceXOF": 6000,
-      "defaultPrice": 9.99,
+      "defaultPrice": 6000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#2C2C2E",
@@ -105,7 +109,8 @@
       "renewalLink": "https://tv.apple.com",
       "description": "Séries et films originaux primés Apple Originals",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6000
     },
     {
       "id": "youtube-premium",
@@ -113,7 +118,7 @@
       "category": "Streaming Vidéo",
       "priceEUR": 12.99,
       "priceXOF": 7500,
-      "defaultPrice": 12.99,
+      "defaultPrice": 7500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#FF0000",
@@ -123,7 +128,8 @@
       "renewalLink": "https://maboutique.com/produit/youtube-premium",
       "description": "Vidéos sans pubs, lecture en arrière-plan et YouTube Music",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 7500
     },
     {
       "id": "crunchyroll-mega-fan",
@@ -131,7 +137,7 @@
       "category": "Streaming Vidéo",
       "priceEUR": 5.99,
       "priceXOF": 4000,
-      "defaultPrice": 6.49,
+      "defaultPrice": 4000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#F47521",
@@ -141,7 +147,8 @@
       "renewalLink": "https://maboutique.com/produit/crunchyroll",
       "description": "Le plus grand catalogue mondial d'animés japonais en simulcast",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 4000
     },
     {
       "id": "max",
@@ -149,7 +156,7 @@
       "category": "Streaming",
       "priceEUR": 9.99,
       "priceXOF": 6500,
-      "defaultPrice": 9.99,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#002BE7",
@@ -159,7 +166,8 @@
       "renewalLink": "https://www.max.com",
       "description": "HBO, Warner Bros, séries cultes et blockbusters cinéma",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "paramount-plus",
@@ -167,7 +175,7 @@
       "category": "Streaming",
       "priceEUR": 7.99,
       "priceXOF": 5000,
-      "defaultPrice": 7.99,
+      "defaultPrice": 5000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#0064FF",
@@ -177,7 +185,8 @@
       "renewalLink": "https://www.paramountplus.com",
       "description": "Films de cinéma, séries exclusives et franchises populaires",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 5000
     },
     {
       "id": "spotify-premium",
@@ -185,7 +194,7 @@
       "category": "Musique",
       "priceEUR": 10.99,
       "priceXOF": 6500,
-      "defaultPrice": 10.99,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#1DB954",
@@ -195,7 +204,8 @@
       "renewalLink": "https://maboutique.com/produit/spotify",
       "description": "Musique en illimité et podcasts haute fidélité sans pub",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "apple-music",
@@ -203,7 +213,7 @@
       "category": "Musique",
       "priceEUR": 10.99,
       "priceXOF": 6500,
-      "defaultPrice": 10.99,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#FA243C",
@@ -213,7 +223,8 @@
       "renewalLink": "https://maboutique.com/produit/apple-music",
       "description": "100 millions de titres en audio spatial Dolby Atmos",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "deezer-premium",
@@ -221,7 +232,7 @@
       "category": "Musique",
       "priceEUR": 11.99,
       "priceXOF": 6500,
-      "defaultPrice": 11.99,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#A238FF",
@@ -231,7 +242,8 @@
       "renewalLink": "https://maboutique.com/produit/deezer",
       "description": "Musique qualité HiFi FLAC et mix personnalisés Flow",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "youtube-music",
@@ -239,7 +251,7 @@
       "category": "Musique",
       "priceEUR": 10.99,
       "priceXOF": 6500,
-      "defaultPrice": 10.99,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#FF0000",
@@ -249,7 +261,8 @@
       "renewalLink": "https://music.youtube.com",
       "description": "Titres officiels, albums, concerts en direct et remixes",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "tidal",
@@ -257,7 +270,7 @@
       "category": "Musique",
       "priceEUR": 10.99,
       "priceXOF": 6500,
-      "defaultPrice": 10.99,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#000000",
@@ -267,7 +280,8 @@
       "renewalLink": "https://tidal.com",
       "description": "Son Master Hi-Res sans perte et expérience audiophile",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "audible",
@@ -275,7 +289,7 @@
       "category": "Musique",
       "priceEUR": 9.95,
       "priceXOF": 6500,
-      "defaultPrice": 9.95,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#F8991D",
@@ -285,7 +299,8 @@
       "renewalLink": "https://www.audible.fr",
       "description": "1 livre audio par mois et catalogue de créations originales",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "ps-plus-extra",
@@ -293,7 +308,7 @@
       "category": "Gaming",
       "priceEUR": 16.99,
       "priceXOF": 10000,
-      "defaultPrice": 13.99,
+      "defaultPrice": 10000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#003791",
@@ -303,7 +318,8 @@
       "renewalLink": "https://maboutique.com/produit/playstation-plus-extra",
       "description": "Multijoueur en ligne, jeux du mois et catalogue de jeux PS4/PS5",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 10000
     },
     {
       "id": "xbox-game-pass-ultimate",
@@ -311,7 +327,7 @@
       "category": "Gaming",
       "priceEUR": 14.99,
       "priceXOF": 9500,
-      "defaultPrice": 14.99,
+      "defaultPrice": 9500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#107C10",
@@ -321,7 +337,8 @@
       "renewalLink": "https://maboutique.com/produit/xbox-game-pass-ultimate",
       "description": "Centaines de jeux haute qualité sur console et PC Day One",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 9500
     },
     {
       "id": "nintendo-switch-online",
@@ -329,7 +346,7 @@
       "category": "Gaming",
       "priceEUR": 3.99,
       "priceXOF": 2500,
-      "defaultPrice": 3.99,
+      "defaultPrice": 2500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#E60012",
@@ -339,7 +356,8 @@
       "renewalLink": "https://maboutique.com/produit/nintendo-switch-online",
       "description": "Jeu en ligne, jeux rétro classiques et sauvegarde cloud",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 2500
     },
     {
       "id": "discord-nitro",
@@ -347,7 +365,7 @@
       "category": "Gaming",
       "priceEUR": 9.99,
       "priceXOF": 6000,
-      "defaultPrice": 9.99,
+      "defaultPrice": 6000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#5865F2",
@@ -357,7 +375,8 @@
       "renewalLink": "https://maboutique.com/produit/discord-nitro",
       "description": "Streaming HD 4K, emojis partout, gros fichiers et boost serveur",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 6000
     },
     {
       "id": "ea-play",
@@ -365,7 +384,7 @@
       "category": "Gaming",
       "priceEUR": 5.99,
       "priceXOF": 4000,
-      "defaultPrice": 5.99,
+      "defaultPrice": 4000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#1E1E24",
@@ -375,7 +394,8 @@
       "renewalLink": "https://maboutique.com/produit/ea-play",
       "description": "Jeux Electronic Arts en accès illimité et réductions exclusives",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 4000
     },
     {
       "id": "geforce-now",
@@ -383,7 +403,7 @@
       "category": "Gaming",
       "priceEUR": 10.99,
       "priceXOF": 7000,
-      "defaultPrice": 10.99,
+      "defaultPrice": 7000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#76B900",
@@ -393,7 +413,8 @@
       "renewalLink": "https://www.nvidia.com/geforce-now",
       "description": "Cloud gaming ultra-fluide avec cartes graphiques RTX",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 7000
     },
     {
       "id": "chatgpt-plus",
@@ -401,7 +422,7 @@
       "category": "Intelligence Artificielle",
       "priceEUR": 20,
       "priceXOF": 13000,
-      "defaultPrice": 22.99,
+      "defaultPrice": 13000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#10A37F",
@@ -411,7 +432,8 @@
       "renewalLink": "https://maboutique.com/produit/chatgpt-plus",
       "description": "Accès prioritaire à GPT-4o, génération d'images et canvas IA",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 13000
     },
     {
       "id": "claude-pro",
@@ -419,7 +441,7 @@
       "category": "Intelligence Artificielle",
       "priceEUR": 20,
       "priceXOF": 13000,
-      "defaultPrice": 21.99,
+      "defaultPrice": 13000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#D97706",
@@ -429,7 +451,8 @@
       "renewalLink": "https://maboutique.com/produit/claude-pro",
       "description": "Usage étendu des modèles Claude 3.5 Sonnet et projets d'équipe",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 13000
     },
     {
       "id": "canva-pro",
@@ -437,7 +460,7 @@
       "category": "Outils Pro",
       "priceEUR": 11.99,
       "priceXOF": 7500,
-      "defaultPrice": 11.99,
+      "defaultPrice": 7500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#00C4CC",
@@ -447,7 +470,8 @@
       "renewalLink": "https://maboutique.com/produit/canva-pro",
       "description": "Outils de design graphique pro, modèles et suppression d'arrière-plan",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 7500
     },
     {
       "id": "github-copilot",
@@ -455,7 +479,7 @@
       "category": "Intelligence Artificielle",
       "priceEUR": 10,
       "priceXOF": 6500,
-      "defaultPrice": 10,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#24292F",
@@ -465,7 +489,8 @@
       "renewalLink": "https://maboutique.com/produit/github-copilot",
       "description": "Assistant d'écriture de code alimenté par l'IA dans votre IDE",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "microsoft-365",
@@ -473,7 +498,7 @@
       "category": "Outils Pro",
       "priceEUR": 7,
       "priceXOF": 4500,
-      "defaultPrice": 7,
+      "defaultPrice": 4500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#D83B01",
@@ -483,7 +508,8 @@
       "renewalLink": "https://www.microsoft.com/microsoft-365",
       "description": "Word, Excel, PowerPoint et 1 To de stockage cloud sécurisé",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 4500
     },
     {
       "id": "notion-plus",
@@ -491,7 +517,7 @@
       "category": "Outils Pro",
       "priceEUR": 10,
       "priceXOF": 6500,
-      "defaultPrice": 10,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#18181B",
@@ -501,7 +527,8 @@
       "renewalLink": "https://www.notion.so",
       "description": "Espace tout-en-un pour notes, documentation et gestion de projets",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "adobe-creative-cloud",
@@ -509,7 +536,7 @@
       "category": "Outils Pro",
       "priceEUR": 35.99,
       "priceXOF": 23500,
-      "defaultPrice": 35.99,
+      "defaultPrice": 23500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#FF0000",
@@ -519,7 +546,8 @@
       "renewalLink": "https://www.adobe.com/creativecloud",
       "description": "Photoshop, Illustrator, Premiere Pro et outils créatifs pro",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 23500
     },
     {
       "id": "midjourney-standard",
@@ -527,7 +555,7 @@
       "category": "Intelligence Artificielle",
       "priceEUR": 10,
       "priceXOF": 6500,
-      "defaultPrice": 29.99,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#1E1F22",
@@ -537,7 +565,8 @@
       "renewalLink": "https://maboutique.com/produit/midjourney",
       "description": "Génération d'images artistiques ultraréalistes par IA",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "figma-pro",
@@ -545,7 +574,7 @@
       "category": "Outils Pro",
       "priceEUR": 15,
       "priceXOF": 10000,
-      "defaultPrice": 15,
+      "defaultPrice": 10000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#F24E1E",
@@ -555,7 +584,8 @@
       "renewalLink": "https://www.figma.com",
       "description": "Design UI/UX collaboratif en temps réel et prototypage interactif",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 10000
     },
     {
       "id": "linkedin-premium",
@@ -563,7 +593,7 @@
       "category": "Outils Pro",
       "priceEUR": 39.99,
       "priceXOF": 26000,
-      "defaultPrice": 39.99,
+      "defaultPrice": 26000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#0A66C2",
@@ -573,7 +603,8 @@
       "renewalLink": "https://www.linkedin.com/premium",
       "description": "Visibilité réseau, InMails mensuels et formations certifiantes",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 26000
     },
     {
       "id": "icloud-plus",
@@ -581,7 +612,7 @@
       "category": "Quotidien",
       "priceEUR": 2.99,
       "priceXOF": 2000,
-      "defaultPrice": 2.99,
+      "defaultPrice": 2000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#007AFF",
@@ -591,7 +622,8 @@
       "renewalLink": "https://maboutique.com/produit/icloud-plus",
       "description": "200 Go de sauvegarde cloud Apple, Relais privé et masquer mon email",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 2000
     },
     {
       "id": "google-one",
@@ -599,7 +631,7 @@
       "category": "Cloud",
       "priceEUR": 1.99,
       "priceXOF": 1500,
-      "defaultPrice": 1.99,
+      "defaultPrice": 1500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#4285F4",
@@ -609,7 +641,8 @@
       "renewalLink": "https://one.google.com",
       "description": "100 Go de stockage partagé Photos, Drive, Gmail et assistance",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 1500
     },
     {
       "id": "dropbox-plus",
@@ -617,7 +650,7 @@
       "category": "Cloud",
       "priceEUR": 11.99,
       "priceXOF": 7500,
-      "defaultPrice": 11.99,
+      "defaultPrice": 7500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#0061FF",
@@ -627,7 +660,8 @@
       "renewalLink": "https://www.dropbox.com",
       "description": "2 To de stockage sécurisé avec synchronisation instantanée multi-appareils",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 7500
     },
     {
       "id": "amazon-prime",
@@ -635,7 +669,7 @@
       "category": "Quotidien",
       "priceEUR": 6.99,
       "priceXOF": 4500,
-      "defaultPrice": 6.99,
+      "defaultPrice": 4500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#00A8E1",
@@ -645,7 +679,8 @@
       "renewalLink": "https://www.amazon.fr/prime",
       "description": "Livraison rapide gratuite, Prime Video, Prime Music et Prime Gaming",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 4500
     },
     {
       "id": "uber-one",
@@ -653,7 +688,7 @@
       "category": "Quotidien",
       "priceEUR": 5.99,
       "priceXOF": 4000,
-      "defaultPrice": 5.99,
+      "defaultPrice": 4000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#1F2937",
@@ -663,7 +698,8 @@
       "renewalLink": "https://www.uber.com/fr/fr/u/uber-one",
       "description": "Frais de livraison à 0 € sur Uber Eats et réductions sur les courses",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 4000
     },
     {
       "id": "deliveroo-plus",
@@ -671,7 +707,7 @@
       "category": "Quotidien",
       "priceEUR": 5.99,
       "priceXOF": 4000,
-      "defaultPrice": 5.99,
+      "defaultPrice": 4000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#00CDBC",
@@ -681,7 +717,8 @@
       "renewalLink": "https://deliveroo.fr/plus",
       "description": "Livraisons gratuites et offres exclusives chez vos restaurants favoris",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 4000
     },
     {
       "id": "one-password",
@@ -689,7 +726,7 @@
       "category": "Quotidien",
       "priceEUR": 3.5,
       "priceXOF": 2300,
-      "defaultPrice": 3.5,
+      "defaultPrice": 2300,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#0A85EA",
@@ -699,7 +736,8 @@
       "renewalLink": "https://1password.com",
       "description": "Gestionnaire de mots de passe chiffré et coffre-fort numérique",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 2300
     },
     {
       "id": "dashlane",
@@ -707,7 +745,7 @@
       "category": "Quotidien",
       "priceEUR": 4.99,
       "priceXOF": 3200,
-      "defaultPrice": 4.99,
+      "defaultPrice": 3200,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#0E353D",
@@ -717,7 +755,8 @@
       "renewalLink": "https://www.dashlane.com",
       "description": "Sécurité des identifiants, surveillance du dark web et VPN",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 3200
     },
     {
       "id": "duolingo-super",
@@ -725,7 +764,7 @@
       "category": "Quotidien",
       "priceEUR": 7.99,
       "priceXOF": 5000,
-      "defaultPrice": 7.99,
+      "defaultPrice": 5000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#58CC02",
@@ -735,7 +774,8 @@
       "renewalLink": "https://maboutique.com/produit/duolingo",
       "description": "Apprentissage des langues avec vies illimitées et sans publicités",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 5000
     },
     {
       "id": "strava",
@@ -743,7 +783,7 @@
       "category": "Bien-être",
       "priceEUR": 9.99,
       "priceXOF": 6000,
-      "defaultPrice": 9.99,
+      "defaultPrice": 6000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#FC6100",
@@ -753,7 +793,8 @@
       "renewalLink": "https://www.strava.com",
       "description": "Suivi GPS d'entraînement, itinéraires personnalisés et analyse d'effort",
       "popular": true,
-      "isActive": true
+      "isActive": true,
+      "price": 6000
     },
     {
       "id": "calm",
@@ -761,7 +802,7 @@
       "category": "Bien-être",
       "priceEUR": 9.99,
       "priceXOF": 6000,
-      "defaultPrice": 9.99,
+      "defaultPrice": 6000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#2E86DE",
@@ -771,7 +812,8 @@
       "renewalLink": "https://www.calm.com",
       "description": "Méditation quotidienne guidée, sons apaisants et histoires du soir",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6000
     },
     {
       "id": "headspace",
@@ -779,7 +821,7 @@
       "category": "Bien-être",
       "priceEUR": 12.99,
       "priceXOF": 8500,
-      "defaultPrice": 12.99,
+      "defaultPrice": 8500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#F47D31",
@@ -789,7 +831,8 @@
       "renewalLink": "https://www.headspace.com",
       "description": "Exercices de respiration, gestion du stress et sommeil réparateur",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 8500
     },
     {
       "id": "freeletics",
@@ -797,7 +840,7 @@
       "category": "Bien-être",
       "priceEUR": 14.99,
       "priceXOF": 9500,
-      "defaultPrice": 14.99,
+      "defaultPrice": 9500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#1E293B",
@@ -807,7 +850,8 @@
       "renewalLink": "https://www.freeletics.com",
       "description": "Coach sportif personnalisé par IA pour entraînements au poids du corps",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 9500
     },
     {
       "id": "le-monde",
@@ -815,7 +859,7 @@
       "category": "Presse",
       "priceEUR": 9.99,
       "priceXOF": 6500,
-      "defaultPrice": 9.99,
+      "defaultPrice": 6500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#18181B",
@@ -825,7 +869,8 @@
       "renewalLink": "https://www.lemonde.fr",
       "description": "Enquêtes exclusives, journal numérique dès 11h et podcasts abonnés",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 6500
     },
     {
       "id": "mediapart",
@@ -833,7 +878,7 @@
       "category": "Presse",
       "priceEUR": 11,
       "priceXOF": 7000,
-      "defaultPrice": 11,
+      "defaultPrice": 7000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#C61D23",
@@ -843,7 +888,8 @@
       "renewalLink": "https://www.mediapart.fr",
       "description": "Journal d'investigation 100% indépendant et sans publicité",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 7000
     },
     {
       "id": "new-york-times",
@@ -851,7 +897,7 @@
       "category": "Presse",
       "priceEUR": 4,
       "priceXOF": 2500,
-      "defaultPrice": 4,
+      "defaultPrice": 2500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#000000",
@@ -861,7 +907,8 @@
       "renewalLink": "https://www.nytimes.com",
       "description": "Journalisme international de référence et reportages mondiaux",
       "popular": false,
-      "isActive": true
+      "isActive": true,
+      "price": 2500
     }
   ]
 }
