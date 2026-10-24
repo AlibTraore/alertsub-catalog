@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-24T21:49:01.125Z",
+  "lastUpdated": "2026-10-24T21:56:12.099Z",
   "currencyDefaults": {
     "EUR_TO_XOF": 655.957,
     "USD_TO_XOF": 605
@@ -192,9 +192,9 @@
       "id": "spotify-premium",
       "name": "Spotify Premium",
       "category": "Musique",
-      "priceEUR": 10.99,
-      "priceXOF": 6500,
-      "defaultPrice": 6500,
+      "priceEUR": 9.15,
+      "priceXOF": 6000,
+      "defaultPrice": 6000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#1DB954",
@@ -205,7 +205,7 @@
       "description": "Musique en illimité et podcasts haute fidélité sans pub",
       "popular": true,
       "isActive": true,
-      "price": 6500
+      "price": 6000
     },
     {
       "id": "apple-music",
