@@ -1,6 +1,6 @@
 {
-  "version": "1.4.0",
-  "lastUpdated": "2026-10-26T19:54:08.952Z",
+  "version": "1.5.0",
+  "lastUpdated": "2026-10-27T10:48:00.000Z",
   "currencyDefaults": {
     "EUR_TO_XOF": 655.957,
     "USD_TO_XOF": 605
@@ -19,7 +19,7 @@
   "items": [
     {
       "id": "netflix-standard",
-      "name": "Netflix",
+      "name": "Netflix Standard",
       "category": "Streaming Vidéo",
       "priceEUR": 13.49,
       "priceXOF": 8500,
@@ -41,14 +41,14 @@
           "name": "Standard avec pub",
           "priceEUR": 5.99,
           "priceXOF": 4000,
-          "description": "1080p • 2 écrans"
+          "description": "1080p avec pub • 2 écrans simultanés"
         },
         {
           "id": "standard",
           "name": "Standard",
           "priceEUR": 13.49,
           "priceXOF": 8500,
-          "description": "1080p sans pub • 2 écrans",
+          "description": "1080p sans pub • 2 écrans simultanés",
           "isDefault": true
         },
         {
@@ -56,13 +56,13 @@
           "name": "Premium 4K",
           "priceEUR": 19.99,
           "priceXOF": 13500,
-          "description": "4K HDR • Spatial Audio • 4 écrans"
+          "description": "4K HDR • Audio spatial • 4 écrans simultanés"
         }
       ]
     },
     {
       "id": "disney-plus-premium",
-      "name": "Disney+",
+      "name": "Disney+ Premium",
       "category": "Streaming Vidéo",
       "priceEUR": 8.99,
       "priceXOF": 5900,
@@ -84,14 +84,14 @@
           "name": "Standard avec pub",
           "priceEUR": 5.99,
           "priceXOF": 4000,
-          "description": "1080p • 2 écrans"
+          "description": "1080p avec pub • 2 écrans simultanés"
         },
         {
           "id": "standard",
           "name": "Standard",
           "priceEUR": 8.99,
           "priceXOF": 5900,
-          "description": "1080p sans pub • 2 écrans",
+          "description": "1080p sans pub • 2 écrans simultanés",
           "isDefault": true
         },
         {
@@ -99,7 +99,7 @@
           "name": "Premium 4K",
           "priceEUR": 11.99,
           "priceXOF": 7900,
-          "description": "4K UHD & HDR • Dolby Atmos • 4 écrans"
+          "description": "4K UHD & HDR • Dolby Atmos • 4 écrans simultanés"
         }
       ]
     },
@@ -120,7 +120,24 @@
       "description": "Films, séries exclusives et livraisons rapides Amazon",
       "popular": true,
       "isActive": true,
-      "price": 4500
+      "price": 4500,
+      "plans": [
+        {
+          "id": "prime-video",
+          "name": "Prime Video",
+          "priceEUR": 6.99,
+          "priceXOF": 4500,
+          "description": "Accès streaming Prime Video seul",
+          "isDefault": true
+        },
+        {
+          "id": "prime-complete",
+          "name": "Amazon Prime Complet",
+          "priceEUR": 6.99,
+          "priceXOF": 4500,
+          "description": "Livraison Prime + Prime Video + Prime Gaming + Music"
+        }
+      ]
     },
     {
       "id": "canal-plus",
@@ -166,9 +183,9 @@
         {
           "id": "tout-canal",
           "name": "Tout Canal+",
-          "priceEUR": 45,
+          "priceEUR": 45.0,
           "priceXOF": 40000,
-          "description": "L'intégralité des bouquets Canal+"
+          "description": "L'intégralité des bouquets et chaînes Canal+"
         }
       ]
     },
@@ -189,7 +206,24 @@
       "description": "Séries et films originaux primés Apple Originals",
       "popular": false,
       "isActive": true,
-      "price": 6000
+      "price": 6000,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Mensuel",
+          "priceEUR": 9.99,
+          "priceXOF": 6000,
+          "description": "Accès Apple Originals jusqu'à 5 membres de la famille",
+          "isDefault": true
+        },
+        {
+          "id": "apple-one",
+          "name": "Apple One Individuel",
+          "priceEUR": 19.95,
+          "priceXOF": 13000,
+          "description": "Apple TV+, Apple Music, Apple Arcade et 50 Go iCloud+"
+        }
+      ]
     },
     {
       "id": "youtube-premium",
@@ -211,11 +245,18 @@
       "price": 7500,
       "plans": [
         {
+          "id": "student",
+          "name": "Étudiant",
+          "priceEUR": 7.99,
+          "priceXOF": 4500,
+          "description": "Tarif étudiant pour vidéos sans pub et YouTube Music"
+        },
+        {
           "id": "individual",
           "name": "Individuel",
           "priceEUR": 12.99,
           "priceXOF": 7500,
-          "description": "Sans pub, arrière-plan & YouTube Music",
+          "description": "Vidéos sans pub, arrière-plan et YouTube Music",
           "isDefault": true
         },
         {
@@ -224,19 +265,12 @@
           "priceEUR": 23.99,
           "priceXOF": 14000,
           "description": "Partage jusqu'à 5 membres du foyer"
-        },
-        {
-          "id": "student",
-          "name": "Étudiant",
-          "priceEUR": 7.99,
-          "priceXOF": 4500,
-          "description": "Tarif réduit pour étudiants éligibles"
         }
       ]
     },
     {
       "id": "crunchyroll-mega-fan",
-      "name": "Crunchyroll",
+      "name": "Crunchyroll Mega Fan",
       "category": "Streaming Vidéo",
       "priceEUR": 5.99,
       "priceXOF": 4000,
@@ -258,14 +292,14 @@
           "name": "Fan",
           "priceEUR": 4.99,
           "priceXOF": 3000,
-          "description": "Animés sans pub • 1 écran"
+          "description": "Animés sans pub • 1 écran simultané"
         },
         {
           "id": "mega-fan",
           "name": "Mega Fan",
           "priceEUR": 5.99,
           "priceXOF": 4000,
-          "description": "4 écrans simultanés et visionnage hors-ligne",
+          "description": "Visionnage hors-ligne • 4 écrans simultanés",
           "isDefault": true
         }
       ]
@@ -294,7 +328,7 @@
           "name": "Standard avec pub",
           "priceEUR": 5.99,
           "priceXOF": 4000,
-          "description": "Full HD • 2 écrans"
+          "description": "Full HD • 2 écrans simultanés"
         },
         {
           "id": "standard",
@@ -309,7 +343,7 @@
           "name": "Premium 4K",
           "priceEUR": 13.99,
           "priceXOF": 9500,
-          "description": "4K UHD & Dolby Atmos • 4 écrans"
+          "description": "4K UHD & Dolby Atmos • 4 écrans simultanés"
         }
       ]
     },
@@ -330,11 +364,28 @@
       "description": "Films de cinéma, séries exclusives et franchises populaires",
       "popular": false,
       "isActive": true,
-      "price": 5000
+      "price": 5000,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "priceEUR": 7.99,
+          "priceXOF": 5000,
+          "description": "Full HD sans pub • 2 écrans",
+          "isDefault": true
+        },
+        {
+          "id": "canal-cine-series",
+          "name": "Inclus via Canal+ Ciné Séries",
+          "priceEUR": 0.0,
+          "priceXOF": 0,
+          "description": "Inclus sans surcoût dans votre pack Canal+"
+        }
+      ]
     },
     {
       "id": "spotify-premium",
-      "name": "Spotify",
+      "name": "Spotify Premium",
       "category": "Musique",
       "priceEUR": 10.99,
       "priceXOF": 7200,
@@ -351,6 +402,13 @@
       "isActive": true,
       "price": 7200,
       "plans": [
+        {
+          "id": "student",
+          "name": "Étudiant",
+          "priceEUR": 5.99,
+          "priceXOF": 4000,
+          "description": "1 compte pour étudiant éligible"
+        },
         {
           "id": "individual",
           "name": "Personnel",
@@ -371,14 +429,7 @@
           "name": "Famille",
           "priceEUR": 17.99,
           "priceXOF": 11500,
-          "description": "Jusqu'à 6 comptes Premium en famille"
-        },
-        {
-          "id": "student",
-          "name": "Étudiant",
-          "priceEUR": 5.99,
-          "priceXOF": 3900,
-          "description": "1 compte avec réduction pour étudiant"
+          "description": "Jusqu'à 6 comptes Premium"
         }
       ]
     },
@@ -402,11 +453,18 @@
       "price": 6500,
       "plans": [
         {
+          "id": "student",
+          "name": "Étudiant",
+          "priceEUR": 5.99,
+          "priceXOF": 3500,
+          "description": "Tarif étudiant pour 100 millions de titres"
+        },
+        {
           "id": "individual",
           "name": "Individuel",
           "priceEUR": 10.99,
           "priceXOF": 6500,
-          "description": "Audio spatial et sans perte Dolby Atmos",
+          "description": "Audio spatial sans perte Dolby Atmos pour 1 personne",
           "isDefault": true
         },
         {
@@ -414,20 +472,13 @@
           "name": "Famille",
           "priceEUR": 16.99,
           "priceXOF": 10500,
-          "description": "Accès illimité pour jusqu'à 6 personnes"
-        },
-        {
-          "id": "student",
-          "name": "Étudiant",
-          "priceEUR": 5.99,
-          "priceXOF": 3500,
-          "description": "Tarif spécial étudiant vérifié"
+          "description": "Accès complet illimité jusqu'à 6 personnes"
         }
       ]
     },
     {
       "id": "deezer-premium",
-      "name": "Deezer",
+      "name": "Deezer Premium",
       "category": "Musique",
       "priceEUR": 11.99,
       "priceXOF": 6500,
@@ -444,6 +495,13 @@
       "isActive": true,
       "price": 6500,
       "plans": [
+        {
+          "id": "student",
+          "name": "Étudiant",
+          "priceEUR": 5.99,
+          "priceXOF": 3500,
+          "description": "Musique HiFi FLAC pour étudiant"
+        },
         {
           "id": "premium",
           "name": "Premium",
@@ -464,7 +522,7 @@
           "name": "Famille",
           "priceEUR": 19.99,
           "priceXOF": 11900,
-          "description": "Jusqu'à 6 comptes avec mix Kids"
+          "description": "Jusqu'à 6 profils avec profils Kids"
         }
       ]
     },
@@ -485,7 +543,31 @@
       "description": "Titres officiels, albums, concerts en direct et remixes",
       "popular": false,
       "isActive": true,
-      "price": 6500
+      "price": 6500,
+      "plans": [
+        {
+          "id": "student",
+          "name": "Étudiant",
+          "priceEUR": 5.49,
+          "priceXOF": 3500,
+          "description": "Tarif étudiant vérifié"
+        },
+        {
+          "id": "individual",
+          "name": "Individuel",
+          "priceEUR": 10.99,
+          "priceXOF": 6500,
+          "description": "Albums, concerts et remixes sans pub en arrière-plan",
+          "isDefault": true
+        },
+        {
+          "id": "family",
+          "name": "Famille",
+          "priceEUR": 16.99,
+          "priceXOF": 10500,
+          "description": "Jusqu'à 5 membres de la famille"
+        }
+      ]
     },
     {
       "id": "tidal",
@@ -504,7 +586,24 @@
       "description": "Son Master Hi-Res sans perte et expérience audiophile",
       "popular": false,
       "isActive": true,
-      "price": 6500
+      "price": 6500,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individuel HiFi",
+          "priceEUR": 10.99,
+          "priceXOF": 6500,
+          "description": "FLAC 24-bit jusqu'à 192 kHz & Dolby Atmos",
+          "isDefault": true
+        },
+        {
+          "id": "family",
+          "name": "Famille HiFi",
+          "priceEUR": 16.99,
+          "priceXOF": 10500,
+          "description": "6 comptes indépendants qualité Master"
+        }
+      ]
     },
     {
       "id": "audible",
@@ -523,11 +622,28 @@
       "description": "1 livre audio par mois et catalogue de créations originales",
       "popular": false,
       "isActive": true,
-      "price": 6500
+      "price": 6500,
+      "plans": [
+        {
+          "id": "monthly-1",
+          "name": "1 crédit / mois",
+          "priceEUR": 9.95,
+          "priceXOF": 6500,
+          "description": "1 livre audio au choix par mois + catalogue illimité",
+          "isDefault": true
+        },
+        {
+          "id": "monthly-2",
+          "name": "2 crédits / mois",
+          "priceEUR": 16.95,
+          "priceXOF": 11000,
+          "description": "2 livres audio au choix par mois"
+        }
+      ]
     },
     {
       "id": "ps-plus-extra",
-      "name": "PlayStation Plus",
+      "name": "PlayStation Plus Extra",
       "category": "Gaming",
       "priceEUR": 16.99,
       "priceXOF": 10000,
@@ -549,14 +665,14 @@
           "name": "Essential",
           "priceEUR": 8.99,
           "priceXOF": 6000,
-          "description": "Jeux mensuels et multijoueur en ligne"
+          "description": "Multijoueur en ligne, 3 jeux mensuels et cloud"
         },
         {
           "id": "extra",
           "name": "Extra",
           "priceEUR": 16.99,
           "priceXOF": 10000,
-          "description": "Catalogue complet de jeux PS4 et PS5",
+          "description": "Catalogue de centaines de jeux PS4 et PS5",
           "isDefault": true
         },
         {
@@ -564,13 +680,13 @@
           "name": "Premium",
           "priceEUR": 19.99,
           "priceXOF": 12000,
-          "description": "Jeux classiques, streaming cloud et essais"
+          "description": "Catalogue classique rétro, streaming cloud et démos"
         }
       ]
     },
     {
       "id": "xbox-game-pass-ultimate",
-      "name": "Xbox Game Pass",
+      "name": "Xbox Game Pass Ultimate",
       "category": "Gaming",
       "priceEUR": 14.99,
       "priceXOF": 9500,
@@ -592,14 +708,14 @@
           "name": "Core",
           "priceEUR": 6.99,
           "priceXOF": 4500,
-          "description": "Multijoueur sur console et catalogue sélectif"
+          "description": "Multijoueur console + catalogue de 25+ jeux"
         },
         {
           "id": "standard",
           "name": "Standard",
           "priceEUR": 11.99,
           "priceXOF": 7500,
-          "description": "Centaines de jeux console haute qualité"
+          "description": "Catalogue complet de jeux console haute qualité"
         },
         {
           "id": "ultimate",
@@ -635,7 +751,7 @@
           "name": "Individuel",
           "priceEUR": 3.99,
           "priceXOF": 2500,
-          "description": "Jeu en ligne et jeux rétro NES/SNES/GB",
+          "description": "Jeu en ligne et jeux rétro NES/SNES/Game Boy",
           "isDefault": true
         },
         {
@@ -643,7 +759,7 @@
           "name": "Individuel + Pack Additionnel",
           "priceEUR": 7.99,
           "priceXOF": 5000,
-          "description": "Jeux N64, Sega et DLCs inclus"
+          "description": "Jeux Nintendo 64, GBA, Sega et DLC Mario Kart"
         },
         {
           "id": "family",
@@ -656,7 +772,7 @@
     },
     {
       "id": "discord-nitro",
-      "name": "Discord",
+      "name": "Discord Nitro",
       "category": "Gaming",
       "priceEUR": 9.99,
       "priceXOF": 6000,
@@ -685,7 +801,7 @@
           "name": "Nitro",
           "priceEUR": 9.99,
           "priceXOF": 6000,
-          "description": "Streaming 4K HD, 500 Mo et 2 boosts de serveur",
+          "description": "Streaming 4K, 500 Mo, 2 boosts de serveur",
           "isDefault": true
         }
       ]
@@ -707,7 +823,24 @@
       "description": "Jeux Electronic Arts en accès illimité et réductions exclusives",
       "popular": false,
       "isActive": true,
-      "price": 4000
+      "price": 4000,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "EA Play",
+          "priceEUR": 5.99,
+          "priceXOF": 4000,
+          "description": "Jeux EA en accès illimité et 10h d'essais récents",
+          "isDefault": true
+        },
+        {
+          "id": "pro",
+          "name": "EA Play Pro (PC)",
+          "priceEUR": 16.99,
+          "priceXOF": 11000,
+          "description": "Éditions Deluxe Day One et catalogue complet PC"
+        }
+      ]
     },
     {
       "id": "geforce-now",
@@ -726,11 +859,28 @@
       "description": "Cloud gaming ultra-fluide avec cartes graphiques RTX",
       "popular": false,
       "isActive": true,
-      "price": 7000
+      "price": 7000,
+      "plans": [
+        {
+          "id": "priority",
+          "name": "Performance (Prioritaire)",
+          "priceEUR": 10.99,
+          "priceXOF": 7000,
+          "description": "1080p 60 FPS • Sessions 6h • RTX ON",
+          "isDefault": true
+        },
+        {
+          "id": "ultimate",
+          "name": "Ultimate RTX 4080",
+          "priceEUR": 21.99,
+          "priceXOF": 14500,
+          "description": "4K 120 FPS ou 240 FPS • Sessions 8h • Puissance max"
+        }
+      ]
     },
     {
       "id": "chatgpt-plus",
-      "name": "ChatGPT (OpenAI)",
+      "name": "ChatGPT Plus (OpenAI)",
       "category": "Intelligence Artificielle",
       "priceEUR": 20,
       "priceXOF": 13000,
@@ -750,7 +900,7 @@
         {
           "id": "plus",
           "name": "ChatGPT Plus",
-          "priceEUR": 20,
+          "priceEUR": 20.0,
           "priceXOF": 13000,
           "description": "Accès prioritaire GPT-4o, Canvas et DALL-E",
           "isDefault": true
@@ -758,9 +908,9 @@
         {
           "id": "team",
           "name": "ChatGPT Team",
-          "priceEUR": 30,
+          "priceEUR": 30.0,
           "priceXOF": 19500,
-          "description": "Espace d'équipe sécurisé et limites plus élevées"
+          "description": "Espace d'équipe sécurisé, non entraîné sur données"
         }
       ]
     },
@@ -781,7 +931,24 @@
       "description": "Usage étendu des modèles Claude 3.5 Sonnet et projets d'équipe",
       "popular": true,
       "isActive": true,
-      "price": 13000
+      "price": 13000,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Claude Pro",
+          "priceEUR": 20.0,
+          "priceXOF": 13000,
+          "description": "Accès 5x plus étendu à Claude 3.5 Sonnet et Projects",
+          "isDefault": true
+        },
+        {
+          "id": "team",
+          "name": "Claude Team",
+          "priceEUR": 30.0,
+          "priceXOF": 19500,
+          "description": "Partage de projets, collaboration et gestion centralisée"
+        }
+      ]
     },
     {
       "id": "canva-pro",
@@ -800,7 +967,24 @@
       "description": "Outils de design graphique pro, modèles et suppression d'arrière-plan",
       "popular": true,
       "isActive": true,
-      "price": 7500
+      "price": 7500,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Canva Pro",
+          "priceEUR": 11.99,
+          "priceXOF": 7500,
+          "description": "1 utilisateur, kit de marque et suppression fond",
+          "isDefault": true
+        },
+        {
+          "id": "teams",
+          "name": "Canva en Équipe",
+          "priceEUR": 23.99,
+          "priceXOF": 15000,
+          "description": "Pour les équipes jusqu'à 5 personnes avec validation"
+        }
+      ]
     },
     {
       "id": "github-copilot",
@@ -819,7 +1003,24 @@
       "description": "Assistant d'écriture de code alimenté par l'IA dans votre IDE",
       "popular": true,
       "isActive": true,
-      "price": 6500
+      "price": 6500,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Copilot Individual",
+          "priceEUR": 10.0,
+          "priceXOF": 6500,
+          "description": "Complétion de code IA et chat IDE pour développeurs",
+          "isDefault": true
+        },
+        {
+          "id": "business",
+          "name": "Copilot Business",
+          "priceEUR": 19.0,
+          "priceXOF": 12500,
+          "description": "Gestion de licences, confidentialité d'entreprise et IP"
+        }
+      ]
     },
     {
       "id": "microsoft-365",
@@ -843,7 +1044,7 @@
         {
           "id": "personal",
           "name": "Personnel",
-          "priceEUR": 7,
+          "priceEUR": 7.0,
           "priceXOF": 4500,
           "description": "1 personne, 1 To OneDrive, Word, Excel, PowerPoint",
           "isDefault": true
@@ -851,9 +1052,9 @@
         {
           "id": "family",
           "name": "Famille",
-          "priceEUR": 10,
+          "priceEUR": 10.0,
           "priceXOF": 6500,
-          "description": "Jusqu'à 6 personnes (6 To au total)"
+          "description": "Jusqu'à 6 personnes, 6 To au total (1 To / personne)"
         }
       ]
     },
@@ -874,7 +1075,24 @@
       "description": "Espace tout-en-un pour notes, documentation et gestion de projets",
       "popular": true,
       "isActive": true,
-      "price": 6500
+      "price": 6500,
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Notion Plus",
+          "priceEUR": 10.0,
+          "priceXOF": 6500,
+          "description": "Blocs illimités, historique 30 jours, 100 invités",
+          "isDefault": true
+        },
+        {
+          "id": "business",
+          "name": "Notion Business",
+          "priceEUR": 18.0,
+          "priceXOF": 12000,
+          "description": "Espaces privés, historique 90 jours, exports PDF pro"
+        }
+      ]
     },
     {
       "id": "adobe-creative-cloud",
@@ -893,7 +1111,31 @@
       "description": "Photoshop, Illustrator, Premiere Pro et outils créatifs pro",
       "popular": false,
       "isActive": true,
-      "price": 23500
+      "price": 23500,
+      "plans": [
+        {
+          "id": "photo",
+          "name": "Formule Photographie (20 Go)",
+          "priceEUR": 11.99,
+          "priceXOF": 7800,
+          "description": "Photoshop et Lightroom pour photographes"
+        },
+        {
+          "id": "single-app",
+          "name": "Application Unique (ex: Premiere)",
+          "priceEUR": 23.99,
+          "priceXOF": 15500,
+          "description": "1 application pro au choix + 100 Go de cloud"
+        },
+        {
+          "id": "all-apps",
+          "name": "Toutes les applications",
+          "priceEUR": 35.99,
+          "priceXOF": 23500,
+          "description": "20+ applications Adobe Creative Cloud complètes",
+          "isDefault": true
+        }
+      ]
     },
     {
       "id": "midjourney-standard",
@@ -912,7 +1154,31 @@
       "description": "Génération d'images artistiques ultraréalistes par IA",
       "popular": false,
       "isActive": true,
-      "price": 6500
+      "price": 6500,
+      "plans": [
+        {
+          "id": "basic",
+          "name": "Plan Basic",
+          "priceEUR": 10.0,
+          "priceXOF": 6500,
+          "description": "3,3h de génération rapide par mois (environ 200 images)",
+          "isDefault": true
+        },
+        {
+          "id": "standard",
+          "name": "Plan Standard",
+          "priceEUR": 30.0,
+          "priceXOF": 19500,
+          "description": "15h de Fast GPU + générations relax illimitées"
+        },
+        {
+          "id": "pro",
+          "name": "Plan Pro",
+          "priceEUR": 60.0,
+          "priceXOF": 39000,
+          "description": "30h Fast GPU + mode furtif (Stealth)"
+        }
+      ]
     },
     {
       "id": "figma-pro",
@@ -931,7 +1197,24 @@
       "description": "Design UI/UX collaboratif en temps réel et prototypage interactif",
       "popular": false,
       "isActive": true,
-      "price": 10000
+      "price": 10000,
+      "plans": [
+        {
+          "id": "professional",
+          "name": "Figma Professional",
+          "priceEUR": 15.0,
+          "priceXOF": 10000,
+          "description": "Fichiers illimités, bibliothèques partagées d'équipe",
+          "isDefault": true
+        },
+        {
+          "id": "organization",
+          "name": "Figma Organization",
+          "priceEUR": 45.0,
+          "priceXOF": 29500,
+          "description": "Design systems avancés, analytics et SSO d'entreprise"
+        }
+      ]
     },
     {
       "id": "linkedin-premium",
@@ -950,11 +1233,35 @@
       "description": "Visibilité réseau, InMails mensuels et formations certifiantes",
       "popular": false,
       "isActive": true,
-      "price": 26000
+      "price": 26000,
+      "plans": [
+        {
+          "id": "career",
+          "name": "Premium Career",
+          "priceEUR": 39.99,
+          "priceXOF": 26000,
+          "description": "5 InMails, qui a vu votre profil, préparation d'entretien",
+          "isDefault": true
+        },
+        {
+          "id": "business",
+          "name": "Premium Business",
+          "priceEUR": 59.99,
+          "priceXOF": 39000,
+          "description": "15 InMails, insights illimités sur entreprises et marché"
+        },
+        {
+          "id": "sales-navigator",
+          "name": "Sales Navigator Core",
+          "priceEUR": 79.99,
+          "priceXOF": 52000,
+          "description": "Recherche ciblée de prospects et 50 InMails"
+        }
+      ]
     },
     {
       "id": "icloud-plus",
-      "name": "iCloud+",
+      "name": "iCloud+ 200 Go",
       "category": "Quotidien",
       "priceEUR": 2.99,
       "priceXOF": 2000,
@@ -991,7 +1298,7 @@
           "name": "2 To",
           "priceEUR": 9.99,
           "priceXOF": 7000,
-          "description": "2 To pour toute la famille et vidéo sécurisée"
+          "description": "2 To de stockage partagé et vidéo sécurisée HomeKit"
         }
       ]
     },
@@ -1016,7 +1323,7 @@
       "plans": [
         {
           "id": "100gb",
-          "name": "100 Go",
+          "name": "Basic 100 Go",
           "priceEUR": 1.99,
           "priceXOF": 1500,
           "description": "100 Go partagés Drive, Photos et Gmail",
@@ -1024,14 +1331,14 @@
         },
         {
           "id": "200gb",
-          "name": "200 Go",
+          "name": "Standard 200 Go",
           "priceEUR": 2.99,
           "priceXOF": 2000,
-          "description": "200 Go de stockage et retouches photo IA"
+          "description": "200 Go de stockage et fonctionnalités retouches IA"
         },
         {
           "id": "2tb",
-          "name": "2 To",
+          "name": "Premium 2 To",
           "priceEUR": 9.99,
           "priceXOF": 6500,
           "description": "2 To de stockage et avantages Google Workspace"
@@ -1040,7 +1347,7 @@
     },
     {
       "id": "dropbox-plus",
-      "name": "Dropbox",
+      "name": "Dropbox Plus",
       "category": "Cloud",
       "priceEUR": 11.99,
       "priceXOF": 7500,
@@ -1091,7 +1398,24 @@
       "description": "Livraison rapide gratuite, Prime Video, Prime Music et Prime Gaming",
       "popular": true,
       "isActive": true,
-      "price": 4500
+      "price": 4500,
+      "plans": [
+        {
+          "id": "student",
+          "name": "Prime Student",
+          "priceEUR": 3.49,
+          "priceXOF": 2300,
+          "description": "Avantages complets Amazon Prime à demi-tarif étudiant"
+        },
+        {
+          "id": "standard",
+          "name": "Amazon Prime Mensuel",
+          "priceEUR": 6.99,
+          "priceXOF": 4500,
+          "description": "Livraison rapide gratuite, Prime Video, Prime Music",
+          "isDefault": true
+        }
+      ]
     },
     {
       "id": "uber-one",
@@ -1110,7 +1434,24 @@
       "description": "Frais de livraison à 0 € sur Uber Eats et réductions sur les courses",
       "popular": true,
       "isActive": true,
-      "price": 4000
+      "price": 4000,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Mensuel",
+          "priceEUR": 5.99,
+          "priceXOF": 4000,
+          "description": "Frais de livraison à 0 € Uber Eats et réductions VTC",
+          "isDefault": true
+        },
+        {
+          "id": "annual",
+          "name": "Annuel",
+          "priceEUR": 59.99,
+          "priceXOF": 39000,
+          "description": "Économie de 2 mois sur l'abonnement complet"
+        }
+      ]
     },
     {
       "id": "deliveroo-plus",
@@ -1129,7 +1470,24 @@
       "description": "Livraisons gratuites et offres exclusives chez vos restaurants favoris",
       "popular": false,
       "isActive": true,
-      "price": 4000
+      "price": 4000,
+      "plans": [
+        {
+          "id": "silver",
+          "name": "Plus Argent (dès 25 €)",
+          "priceEUR": 2.99,
+          "priceXOF": 2000,
+          "description": "Livraison gratuite dès 25 € de commande"
+        },
+        {
+          "id": "gold",
+          "name": "Plus Or (dès 12 €)",
+          "priceEUR": 5.99,
+          "priceXOF": 4000,
+          "description": "Livraison gratuite dès 12 € de commande restaurant",
+          "isDefault": true
+        }
+      ]
     },
     {
       "id": "one-password",
@@ -1148,7 +1506,24 @@
       "description": "Gestionnaire de mots de passe chiffré et coffre-fort numérique",
       "popular": false,
       "isActive": true,
-      "price": 2300
+      "price": 2300,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individuel",
+          "priceEUR": 3.5,
+          "priceXOF": 2300,
+          "description": "Mots de passe et 1 Go de documents pour 1 personne",
+          "isDefault": true
+        },
+        {
+          "id": "families",
+          "name": "Familles",
+          "priceEUR": 6.99,
+          "priceXOF": 4500,
+          "description": "Jusqu'à 5 membres de la famille avec coffres partagés"
+        }
+      ]
     },
     {
       "id": "dashlane",
@@ -1167,7 +1542,24 @@
       "description": "Sécurité des identifiants, surveillance du dark web et VPN",
       "popular": false,
       "isActive": true,
-      "price": 3200
+      "price": 3200,
+      "plans": [
+        {
+          "id": "premium",
+          "name": "Premium",
+          "priceEUR": 4.99,
+          "priceXOF": 3200,
+          "description": "Identifiants illimités, surveillance dark web et VPN",
+          "isDefault": true
+        },
+        {
+          "id": "friends-family",
+          "name": "Friends & Family",
+          "priceEUR": 7.99,
+          "priceXOF": 5200,
+          "description": "Jusqu'à 10 comptes séparés pour proches"
+        }
+      ]
     },
     {
       "id": "duolingo-super",
@@ -1186,7 +1578,24 @@
       "description": "Apprentissage des langues avec vies illimitées et sans publicités",
       "popular": true,
       "isActive": true,
-      "price": 5000
+      "price": 5000,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Super Individuel",
+          "priceEUR": 7.99,
+          "priceXOF": 5000,
+          "description": "Vies illimitées, révision personnalisée et sans pub",
+          "isDefault": true
+        },
+        {
+          "id": "family",
+          "name": "Super Famille",
+          "priceEUR": 12.99,
+          "priceXOF": 8500,
+          "description": "Jusqu'à 6 comptes sur un seul abonnement"
+        }
+      ]
     },
     {
       "id": "strava",
@@ -1205,7 +1614,24 @@
       "description": "Suivi GPS d'entraînement, itinéraires personnalisés et analyse d'effort",
       "popular": true,
       "isActive": true,
-      "price": 6000
+      "price": 6000,
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Abonnement Mensuel",
+          "priceEUR": 9.99,
+          "priceXOF": 6000,
+          "description": "Analyse d'effort, segments en direct et itinéraires",
+          "isDefault": true
+        },
+        {
+          "id": "family",
+          "name": "Abonnement Famille",
+          "priceEUR": 19.99,
+          "priceXOF": 13000,
+          "description": "Abonnement complet partagé jusqu'à 4 personnes"
+        }
+      ]
     },
     {
       "id": "calm",
@@ -1224,7 +1650,24 @@
       "description": "Méditation quotidienne guidée, sons apaisants et histoires du soir",
       "popular": false,
       "isActive": true,
-      "price": 6000
+      "price": 6000,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individuel",
+          "priceEUR": 9.99,
+          "priceXOF": 6000,
+          "description": "Méditations guidées et musiques apaisantes",
+          "isDefault": true
+        },
+        {
+          "id": "family",
+          "name": "Famille",
+          "priceEUR": 14.99,
+          "priceXOF": 9800,
+          "description": "Jusqu'à 6 comptes séparés"
+        }
+      ]
     },
     {
       "id": "headspace",
@@ -1243,7 +1686,24 @@
       "description": "Exercices de respiration, gestion du stress et sommeil réparateur",
       "popular": false,
       "isActive": true,
-      "price": 8500
+      "price": 8500,
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individuel",
+          "priceEUR": 12.99,
+          "priceXOF": 8500,
+          "description": "Pleine conscience et sommeil réparateur",
+          "isDefault": true
+        },
+        {
+          "id": "family",
+          "name": "Famille",
+          "priceEUR": 19.99,
+          "priceXOF": 13000,
+          "description": "Jusqu'à 6 comptes pour toute la famille"
+        }
+      ]
     },
     {
       "id": "freeletics",
@@ -1262,7 +1722,24 @@
       "description": "Coach sportif personnalisé par IA pour entraînements au poids du corps",
       "popular": false,
       "isActive": true,
-      "price": 9500
+      "price": 9500,
+      "plans": [
+        {
+          "id": "coach-training",
+          "name": "Coach Training",
+          "priceEUR": 14.99,
+          "priceXOF": 9500,
+          "description": "Plans d'entraînement IA personnalisés",
+          "isDefault": true
+        },
+        {
+          "id": "training-nutrition",
+          "name": "Training & Nutrition",
+          "priceEUR": 19.99,
+          "priceXOF": 13000,
+          "description": "Entraînement physique et recettes sur mesure"
+        }
+      ]
     },
     {
       "id": "le-monde",
@@ -1281,7 +1758,24 @@
       "description": "Enquêtes exclusives, journal numérique dès 11h et podcasts abonnés",
       "popular": false,
       "isActive": true,
-      "price": 6500
+      "price": 6500,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "priceEUR": 9.99,
+          "priceXOF": 6500,
+          "description": "Accès numérique complet pour 1 compte",
+          "isDefault": true
+        },
+        {
+          "id": "family",
+          "name": "Duo / Famille",
+          "priceEUR": 14.99,
+          "priceXOF": 9800,
+          "description": "Accès pour 2 à 4 comptes au foyer"
+        }
+      ]
     },
     {
       "id": "mediapart",
@@ -1300,7 +1794,24 @@
       "description": "Journal d'investigation 100% indépendant et sans publicité",
       "popular": false,
       "isActive": true,
-      "price": 7000
+      "price": 7000,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "priceEUR": 11.0,
+          "priceXOF": 7000,
+          "description": "Journal complet sans publicité et club abonnés",
+          "isDefault": true
+        },
+        {
+          "id": "solidarity",
+          "name": "Solidaire / Réduit",
+          "priceEUR": 5.0,
+          "priceXOF": 3000,
+          "description": "Tarif réservé aux étudiants et précaires"
+        }
+      ]
     },
     {
       "id": "new-york-times",
@@ -1319,7 +1830,24 @@
       "description": "Journalisme international de référence et reportages mondiaux",
       "popular": false,
       "isActive": true,
-      "price": 2500
+      "price": 2500,
+      "plans": [
+        {
+          "id": "news",
+          "name": "NYT News",
+          "priceEUR": 4.0,
+          "priceXOF": 2500,
+          "description": "Actualités mondiales et reportages du New York Times",
+          "isDefault": true
+        },
+        {
+          "id": "all-access",
+          "name": "All Access",
+          "priceEUR": 7.0,
+          "priceXOF": 4500,
+          "description": "News + Games (Wordle, Crossword) + Cooking + The Athletic"
+        }
+      ]
     }
   ]
 }
