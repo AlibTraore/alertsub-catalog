@@ -1,9 +1,9 @@
 {
-  "version": "1.5.0",
-  "lastUpdated": "2026-10-27T10:48:00.000Z",
+  "version": "1.6.0",
+  "lastUpdated": "2026-10-27T12:15:00.000Z",
   "currencyDefaults": {
     "EUR_TO_XOF": 655.957,
-    "USD_TO_XOF": 605
+    "USD_TO_XOF": 587.262
   },
   "categories": [
     "Tous",
@@ -64,9 +64,9 @@
       "id": "disney-plus-premium",
       "name": "Disney+ Premium",
       "category": "Streaming Vidéo",
-      "priceEUR": 8.99,
-      "priceXOF": 5900,
-      "defaultPrice": 5900,
+      "priceEUR": 10.99,
+      "priceXOF": 7200,
+      "defaultPrice": 7200,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#113CCF",
@@ -77,28 +77,28 @@
       "description": "Disney, Pixar, Marvel, Star Wars et National Geographic",
       "popular": true,
       "isActive": true,
-      "price": 5900,
+      "price": 7200,
       "plans": [
         {
           "id": "standard-ads",
           "name": "Standard avec pub",
-          "priceEUR": 5.99,
-          "priceXOF": 4000,
+          "priceEUR": 6.99,
+          "priceXOF": 4600,
           "description": "1080p avec pub • 2 écrans simultanés"
         },
         {
           "id": "standard",
           "name": "Standard",
-          "priceEUR": 8.99,
-          "priceXOF": 5900,
+          "priceEUR": 10.99,
+          "priceXOF": 7200,
           "description": "1080p sans pub • 2 écrans simultanés",
           "isDefault": true
         },
         {
           "id": "premium",
           "name": "Premium 4K",
-          "priceEUR": 11.99,
-          "priceXOF": 7900,
+          "priceEUR": 15.99,
+          "priceXOF": 10500,
           "description": "4K UHD & HDR • Dolby Atmos • 4 écrans simultanés"
         }
       ]
@@ -688,9 +688,9 @@
       "id": "xbox-game-pass-ultimate",
       "name": "Xbox Game Pass Ultimate",
       "category": "Gaming",
-      "priceEUR": 14.99,
-      "priceXOF": 9500,
-      "defaultPrice": 9500,
+      "priceEUR": 17.99,
+      "priceXOF": 11800,
+      "defaultPrice": 11800,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#107C10",
@@ -701,7 +701,7 @@
       "description": "Centaines de jeux haute qualité sur console et PC Day One",
       "popular": true,
       "isActive": true,
-      "price": 9500,
+      "price": 11800,
       "plans": [
         {
           "id": "core",
@@ -720,8 +720,8 @@
         {
           "id": "ultimate",
           "name": "Ultimate",
-          "priceEUR": 14.99,
-          "priceXOF": 9500,
+          "priceEUR": 17.99,
+          "priceXOF": 11800,
           "description": "Console, PC, Cloud Gaming & EA Play inclus",
           "isDefault": true
         }
