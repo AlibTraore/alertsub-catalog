@@ -1,6 +1,6 @@
 {
-  "version": "1.6.0",
-  "lastUpdated": "2026-10-27T12:15:00.000Z",
+  "version": "1.7.0",
+  "lastUpdated": "2026-10-27T12:28:00.000Z",
   "currencyDefaults": {
     "EUR_TO_XOF": 655.957,
     "USD_TO_XOF": 587.262
@@ -14,7 +14,9 @@
     "Cloud",
     "Quotidien",
     "Bien-être",
-    "Presse"
+    "Presse",
+    "Sécurité",
+    "Intelligence Artificielle"
   ],
   "items": [
     {
@@ -1846,6 +1848,222 @@
           "priceEUR": 7.0,
           "priceXOF": 4500,
           "description": "News + Games (Wordle, Crossword) + Cooking + The Athletic"
+        }
+      ]
+    },
+    {
+      "id": "nordvpn",
+      "name": "NordVPN",
+      "category": "Sécurité",
+      "priceEUR": 12.99,
+      "priceXOF": 8500,
+      "defaultPrice": 8500,
+      "duration": "1 mois",
+      "billingCycle": "monthly",
+      "color": "#4687FF",
+      "icon": "shield-checkmark",
+      "logoUrl": "https://cdn.simpleicons.org/nordvpn/4687FF",
+      "storeLink": "https://nordvpn.com",
+      "renewalLink": "https://nordvpn.com",
+      "description": "Protection VPN ultra-rapide, bloqueur de menaces et chiffrement sécurisé",
+      "popular": true,
+      "isActive": true,
+      "price": 8500,
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "priceEUR": 12.99,
+          "priceXOF": 8500,
+          "description": "VPN sécurisé, bloqueur de pubs et malwares sur 10 appareils",
+          "isDefault": true
+        },
+        {
+          "id": "plus",
+          "name": "Plus",
+          "priceEUR": 14.99,
+          "priceXOF": 9800,
+          "description": "Protection anti-malware avancée et gestionnaire de mots de passe"
+        },
+        {
+          "id": "ultimate",
+          "name": "Ultimate",
+          "priceEUR": 17.99,
+          "priceXOF": 11800,
+          "description": "1 To de stockage cloud chiffré et assurance cyber-risques"
+        }
+      ]
+    },
+    {
+      "id": "perplexity-pro",
+      "name": "Perplexity Pro",
+      "category": "Intelligence Artificielle",
+      "priceEUR": 20.0,
+      "priceXOF": 13000,
+      "defaultPrice": 13000,
+      "duration": "1 mois",
+      "billingCycle": "monthly",
+      "color": "#20B2AA",
+      "icon": "sparkles",
+      "logoUrl": "https://cdn.simpleicons.org/perplexity/20B2AA",
+      "storeLink": "https://www.perplexity.ai",
+      "renewalLink": "https://www.perplexity.ai",
+      "description": "Moteur de recherche IA avec sources vérifiées, Pro Search et modèles avancés",
+      "popular": true,
+      "isActive": true,
+      "price": 13000,
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "name": "Pro Mensuel",
+          "priceEUR": 20.0,
+          "priceXOF": 13000,
+          "description": "300+ recherches Pro quotidiennes, Claude 3.5 Sonnet, GPT-4o",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "cursor-pro",
+      "name": "Cursor Pro",
+      "category": "Intelligence Artificielle",
+      "priceEUR": 20.0,
+      "priceXOF": 13000,
+      "defaultPrice": 13000,
+      "duration": "1 mois",
+      "billingCycle": "monthly",
+      "color": "#6366F1",
+      "icon": "code-slash",
+      "logoUrl": "https://cdn.simpleicons.org/cursor/6366F1",
+      "storeLink": "https://www.cursor.com",
+      "renewalLink": "https://www.cursor.com",
+      "description": "Éditeur de code nouvelle génération avec complétion et agent IA intégré",
+      "popular": true,
+      "isActive": true,
+      "price": 13000,
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Cursor Pro",
+          "priceEUR": 20.0,
+          "priceXOF": 13000,
+          "description": "500 requêtes rapides premium/mois (Sonnet, GPT-4o) et requêtes lentes illimitées",
+          "isDefault": true
+        },
+        {
+          "id": "business",
+          "name": "Cursor Business",
+          "priceEUR": 40.0,
+          "priceXOF": 26000,
+          "description": "Espace d'équipe centralisé, facturation unifiée et mode zéro rétention de données"
+        }
+      ]
+    },
+    {
+      "id": "dazn",
+      "name": "DAZN",
+      "category": "Streaming",
+      "priceEUR": 19.99,
+      "priceXOF": 13000,
+      "defaultPrice": 13000,
+      "duration": "1 mois",
+      "billingCycle": "monthly",
+      "color": "#F8F8F5",
+      "icon": "trophy",
+      "logoUrl": "https://cdn.simpleicons.org/dazn/F8F8F5",
+      "storeLink": "https://www.dazn.com",
+      "renewalLink": "https://www.dazn.com",
+      "description": "Plateforme mondiale de streaming sportif, football et sports de combat en direct",
+      "popular": true,
+      "isActive": true,
+      "price": 13000,
+      "plans": [
+        {
+          "id": "super-sports",
+          "name": "Super Sports",
+          "priceEUR": 14.99,
+          "priceXOF": 9800,
+          "description": "Sports de combat (PFL, Bellator, boxe) et grands événements féminins"
+        },
+        {
+          "id": "unlimited",
+          "name": "Unlimited",
+          "priceEUR": 19.99,
+          "priceXOF": 13000,
+          "description": "Ligue 1 en direct, Betclic Élite basketball et tous les sports de combat",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "proton-unlimited",
+      "name": "Proton Unlimited",
+      "category": "Cloud",
+      "priceEUR": 12.99,
+      "priceXOF": 8500,
+      "defaultPrice": 8500,
+      "duration": "1 mois",
+      "billingCycle": "monthly",
+      "color": "#6D4AFF",
+      "icon": "lock-closed",
+      "logoUrl": "https://cdn.simpleicons.org/proton/6D4AFF",
+      "storeLink": "https://proton.me",
+      "renewalLink": "https://proton.me",
+      "description": "Écosystème suisse chiffré de bout en bout : Mail, Drive 500 Go, VPN et Pass",
+      "popular": false,
+      "isActive": true,
+      "price": 8500,
+      "plans": [
+        {
+          "id": "mail-plus",
+          "name": "Mail Plus",
+          "priceEUR": 4.99,
+          "priceXOF": 3200,
+          "description": "15 Go de stockage, messagerie sécurisée et domaine personnalisé"
+        },
+        {
+          "id": "unlimited",
+          "name": "Proton Unlimited",
+          "priceEUR": 12.99,
+          "priceXOF": 8500,
+          "description": "500 Go partagés, 15 adresses e-mail, VPN haute vitesse et gestionnaire de mots de passe",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "molotov-tv",
+      "name": "Molotov TV",
+      "category": "Streaming",
+      "priceEUR": 5.99,
+      "priceXOF": 4000,
+      "defaultPrice": 4000,
+      "duration": "1 mois",
+      "billingCycle": "monthly",
+      "color": "#FF5000",
+      "icon": "tv",
+      "logoUrl": "https://cdn.simpleicons.org/molotov/FF5000",
+      "storeLink": "https://www.molotov.tv",
+      "renewalLink": "https://www.molotov.tv",
+      "description": "La télévision française en direct et replay avec enregistreur cloud sur tous vos écrans",
+      "popular": false,
+      "isActive": true,
+      "price": 4000,
+      "plans": [
+        {
+          "id": "extra",
+          "name": "Molotov Extra",
+          "priceEUR": 5.99,
+          "priceXOF": 4000,
+          "description": "80+ chaînes TV en direct et replay, 4 écrans Full HD simultanés et contrôle du direct",
+          "isDefault": true
+        },
+        {
+          "id": "extended",
+          "name": "Molotov Extended",
+          "priceEUR": 10.99,
+          "priceXOF": 7200,
+          "description": "130+ chaînes thématiques dont divertissement, jeunesse, séries et documentaires"
         }
       ]
     }
