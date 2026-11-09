@@ -1,9 +1,9 @@
 {
-  "version": "1.7.0",
-  "lastUpdated": "2026-10-27T12:28:00.000Z",
+  "version": "1.5.1",
+  "lastUpdated": "2026-11-02T09:30:00.000Z",
   "currencyDefaults": {
     "EUR_TO_XOF": 655.957,
-    "USD_TO_XOF": 587.262
+    "USD_TO_XOF": 588
   },
   "categories": [
     "Tous",
@@ -14,18 +14,16 @@
     "Cloud",
     "Quotidien",
     "Bien-être",
-    "Presse",
-    "Sécurité",
-    "Intelligence Artificielle"
+    "Presse"
   ],
   "items": [
     {
       "id": "netflix-standard",
       "name": "Netflix Standard",
       "category": "Streaming Vidéo",
-      "priceEUR": 13.49,
-      "priceXOF": 8500,
-      "defaultPrice": 8500,
+      "priceEUR": 14.99,
+      "priceXOF": 9800,
+      "defaultPrice": 9800,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#E50914",
@@ -36,28 +34,28 @@
       "description": "Films, séries originales et documentaires illimités",
       "popular": true,
       "isActive": true,
-      "price": 8500,
+      "price": 9800,
       "plans": [
         {
           "id": "standard-ads",
           "name": "Standard avec pub",
-          "priceEUR": 5.99,
-          "priceXOF": 4000,
+          "priceEUR": 7.99,
+          "priceXOF": 5200,
           "description": "1080p avec pub • 2 écrans simultanés"
         },
         {
           "id": "standard",
           "name": "Standard",
-          "priceEUR": 13.49,
-          "priceXOF": 8500,
+          "priceEUR": 14.99,
+          "priceXOF": 9800,
           "description": "1080p sans pub • 2 écrans simultanés",
           "isDefault": true
         },
         {
           "id": "premium",
           "name": "Premium 4K",
-          "priceEUR": 19.99,
-          "priceXOF": 13500,
+          "priceEUR": 21.99,
+          "priceXOF": 14500,
           "description": "4K HDR • Audio spatial • 4 écrans simultanés"
         }
       ]
@@ -66,9 +64,9 @@
       "id": "disney-plus-premium",
       "name": "Disney+ Premium",
       "category": "Streaming Vidéo",
-      "priceEUR": 10.99,
-      "priceXOF": 7200,
-      "defaultPrice": 7200,
+      "priceEUR": 8.99,
+      "priceXOF": 5900,
+      "defaultPrice": 5900,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#113CCF",
@@ -79,28 +77,28 @@
       "description": "Disney, Pixar, Marvel, Star Wars et National Geographic",
       "popular": true,
       "isActive": true,
-      "price": 7200,
+      "price": 5900,
       "plans": [
         {
           "id": "standard-ads",
           "name": "Standard avec pub",
           "priceEUR": 6.99,
-          "priceXOF": 4600,
+          "priceXOF": 4500,
           "description": "1080p avec pub • 2 écrans simultanés"
         },
         {
           "id": "standard",
           "name": "Standard",
-          "priceEUR": 10.99,
-          "priceXOF": 7200,
+          "priceEUR": 8.99,
+          "priceXOF": 5900,
           "description": "1080p sans pub • 2 écrans simultanés",
           "isDefault": true
         },
         {
           "id": "premium",
           "name": "Premium 4K",
-          "priceEUR": 15.99,
-          "priceXOF": 10500,
+          "priceEUR": 11.99,
+          "priceXOF": 7900,
           "description": "4K UHD & HDR • Dolby Atmos • 4 écrans simultanés"
         }
       ]
@@ -231,9 +229,9 @@
       "id": "youtube-premium",
       "name": "YouTube Premium",
       "category": "Streaming Vidéo",
-      "priceEUR": 12.99,
-      "priceXOF": 7500,
-      "defaultPrice": 7500,
+      "priceEUR": 13.99,
+      "priceXOF": 9000,
+      "defaultPrice": 9000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#FF0000",
@@ -244,28 +242,28 @@
       "description": "Vidéos sans pubs, lecture en arrière-plan et YouTube Music",
       "popular": true,
       "isActive": true,
-      "price": 7500,
+      "price": 9000,
       "plans": [
         {
           "id": "student",
           "name": "Étudiant",
-          "priceEUR": 7.99,
-          "priceXOF": 4500,
+          "priceEUR": 8.99,
+          "priceXOF": 5900,
           "description": "Tarif étudiant pour vidéos sans pub et YouTube Music"
         },
         {
           "id": "individual",
           "name": "Individuel",
-          "priceEUR": 12.99,
-          "priceXOF": 7500,
+          "priceEUR": 13.99,
+          "priceXOF": 9000,
           "description": "Vidéos sans pub, arrière-plan et YouTube Music",
           "isDefault": true
         },
         {
           "id": "family",
           "name": "Famille (5 comptes)",
-          "priceEUR": 23.99,
-          "priceXOF": 14000,
+          "priceEUR": 25.99,
+          "priceXOF": 17000,
           "description": "Partage jusqu'à 5 membres du foyer"
         }
       ]
@@ -389,9 +387,9 @@
       "id": "spotify-premium",
       "name": "Spotify Premium",
       "category": "Musique",
-      "priceEUR": 10.99,
-      "priceXOF": 7200,
-      "defaultPrice": 7200,
+      "priceEUR": 12.14,
+      "priceXOF": 8000,
+      "defaultPrice": 8000,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#1DB954",
@@ -402,35 +400,35 @@
       "description": "Musique en illimité et podcasts haute fidélité sans pub",
       "popular": true,
       "isActive": true,
-      "price": 7200,
+      "price": 8000,
       "plans": [
         {
           "id": "student",
           "name": "Étudiant",
-          "priceEUR": 5.99,
-          "priceXOF": 4000,
+          "priceEUR": 7.07,
+          "priceXOF": 4600,
           "description": "1 compte pour étudiant éligible"
         },
         {
           "id": "individual",
           "name": "Personnel",
-          "priceEUR": 10.99,
-          "priceXOF": 7200,
+          "priceEUR": 12.14,
+          "priceXOF": 8000,
           "description": "1 compte Premium individuel",
           "isDefault": true
         },
         {
           "id": "duo",
           "name": "Duo",
-          "priceEUR": 14.99,
-          "priceXOF": 9500,
+          "priceEUR": 17.2,
+          "priceXOF": 11200,
           "description": "2 comptes Premium sous le même toit"
         },
         {
           "id": "family",
           "name": "Famille",
-          "priceEUR": 17.99,
-          "priceXOF": 11500,
+          "priceEUR": 21.24,
+          "priceXOF": 13900,
           "description": "Jusqu'à 6 comptes Premium"
         }
       ]
@@ -690,9 +688,9 @@
       "id": "xbox-game-pass-ultimate",
       "name": "Xbox Game Pass Ultimate",
       "category": "Gaming",
-      "priceEUR": 17.99,
-      "priceXOF": 11800,
-      "defaultPrice": 11800,
+      "priceEUR": 14.99,
+      "priceXOF": 9500,
+      "defaultPrice": 9500,
       "duration": "1 mois",
       "billingCycle": "monthly",
       "color": "#107C10",
@@ -703,7 +701,7 @@
       "description": "Centaines de jeux haute qualité sur console et PC Day One",
       "popular": true,
       "isActive": true,
-      "price": 11800,
+      "price": 9500,
       "plans": [
         {
           "id": "core",
@@ -722,8 +720,8 @@
         {
           "id": "ultimate",
           "name": "Ultimate",
-          "priceEUR": 17.99,
-          "priceXOF": 11800,
+          "priceEUR": 14.99,
+          "priceXOF": 9500,
           "description": "Console, PC, Cloud Gaming & EA Play inclus",
           "isDefault": true
         }
@@ -1850,222 +1848,7 @@
           "description": "News + Games (Wordle, Crossword) + Cooking + The Athletic"
         }
       ]
-    },
-    {
-      "id": "nordvpn",
-      "name": "NordVPN",
-      "category": "Sécurité",
-      "priceEUR": 12.99,
-      "priceXOF": 8500,
-      "defaultPrice": 8500,
-      "duration": "1 mois",
-      "billingCycle": "monthly",
-      "color": "#4687FF",
-      "icon": "shield-checkmark",
-      "logoUrl": "https://cdn.simpleicons.org/nordvpn/4687FF",
-      "storeLink": "https://nordvpn.com",
-      "renewalLink": "https://nordvpn.com",
-      "description": "Protection VPN ultra-rapide, bloqueur de menaces et chiffrement sécurisé",
-      "popular": true,
-      "isActive": true,
-      "price": 8500,
-      "plans": [
-        {
-          "id": "standard",
-          "name": "Standard",
-          "priceEUR": 12.99,
-          "priceXOF": 8500,
-          "description": "VPN sécurisé, bloqueur de pubs et malwares sur 10 appareils",
-          "isDefault": true
-        },
-        {
-          "id": "plus",
-          "name": "Plus",
-          "priceEUR": 14.99,
-          "priceXOF": 9800,
-          "description": "Protection anti-malware avancée et gestionnaire de mots de passe"
-        },
-        {
-          "id": "ultimate",
-          "name": "Ultimate",
-          "priceEUR": 17.99,
-          "priceXOF": 11800,
-          "description": "1 To de stockage cloud chiffré et assurance cyber-risques"
-        }
-      ]
-    },
-    {
-      "id": "perplexity-pro",
-      "name": "Perplexity Pro",
-      "category": "Intelligence Artificielle",
-      "priceEUR": 20.0,
-      "priceXOF": 13000,
-      "defaultPrice": 13000,
-      "duration": "1 mois",
-      "billingCycle": "monthly",
-      "color": "#20B2AA",
-      "icon": "sparkles",
-      "logoUrl": "https://cdn.simpleicons.org/perplexity/20B2AA",
-      "storeLink": "https://www.perplexity.ai",
-      "renewalLink": "https://www.perplexity.ai",
-      "description": "Moteur de recherche IA avec sources vérifiées, Pro Search et modèles avancés",
-      "popular": true,
-      "isActive": true,
-      "price": 13000,
-      "plans": [
-        {
-          "id": "pro-monthly",
-          "name": "Pro Mensuel",
-          "priceEUR": 20.0,
-          "priceXOF": 13000,
-          "description": "300+ recherches Pro quotidiennes, Claude 3.5 Sonnet, GPT-4o",
-          "isDefault": true
-        }
-      ]
-    },
-    {
-      "id": "cursor-pro",
-      "name": "Cursor Pro",
-      "category": "Intelligence Artificielle",
-      "priceEUR": 20.0,
-      "priceXOF": 13000,
-      "defaultPrice": 13000,
-      "duration": "1 mois",
-      "billingCycle": "monthly",
-      "color": "#6366F1",
-      "icon": "code-slash",
-      "logoUrl": "https://cdn.simpleicons.org/cursor/6366F1",
-      "storeLink": "https://www.cursor.com",
-      "renewalLink": "https://www.cursor.com",
-      "description": "Éditeur de code nouvelle génération avec complétion et agent IA intégré",
-      "popular": true,
-      "isActive": true,
-      "price": 13000,
-      "plans": [
-        {
-          "id": "pro",
-          "name": "Cursor Pro",
-          "priceEUR": 20.0,
-          "priceXOF": 13000,
-          "description": "500 requêtes rapides premium/mois (Sonnet, GPT-4o) et requêtes lentes illimitées",
-          "isDefault": true
-        },
-        {
-          "id": "business",
-          "name": "Cursor Business",
-          "priceEUR": 40.0,
-          "priceXOF": 26000,
-          "description": "Espace d'équipe centralisé, facturation unifiée et mode zéro rétention de données"
-        }
-      ]
-    },
-    {
-      "id": "dazn",
-      "name": "DAZN",
-      "category": "Streaming",
-      "priceEUR": 19.99,
-      "priceXOF": 13000,
-      "defaultPrice": 13000,
-      "duration": "1 mois",
-      "billingCycle": "monthly",
-      "color": "#F8F8F5",
-      "icon": "trophy",
-      "logoUrl": "https://cdn.simpleicons.org/dazn/F8F8F5",
-      "storeLink": "https://www.dazn.com",
-      "renewalLink": "https://www.dazn.com",
-      "description": "Plateforme mondiale de streaming sportif, football et sports de combat en direct",
-      "popular": true,
-      "isActive": true,
-      "price": 13000,
-      "plans": [
-        {
-          "id": "super-sports",
-          "name": "Super Sports",
-          "priceEUR": 14.99,
-          "priceXOF": 9800,
-          "description": "Sports de combat (PFL, Bellator, boxe) et grands événements féminins"
-        },
-        {
-          "id": "unlimited",
-          "name": "Unlimited",
-          "priceEUR": 19.99,
-          "priceXOF": 13000,
-          "description": "Ligue 1 en direct, Betclic Élite basketball et tous les sports de combat",
-          "isDefault": true
-        }
-      ]
-    },
-    {
-      "id": "proton-unlimited",
-      "name": "Proton Unlimited",
-      "category": "Cloud",
-      "priceEUR": 12.99,
-      "priceXOF": 8500,
-      "defaultPrice": 8500,
-      "duration": "1 mois",
-      "billingCycle": "monthly",
-      "color": "#6D4AFF",
-      "icon": "lock-closed",
-      "logoUrl": "https://cdn.simpleicons.org/proton/6D4AFF",
-      "storeLink": "https://proton.me",
-      "renewalLink": "https://proton.me",
-      "description": "Écosystème suisse chiffré de bout en bout : Mail, Drive 500 Go, VPN et Pass",
-      "popular": false,
-      "isActive": true,
-      "price": 8500,
-      "plans": [
-        {
-          "id": "mail-plus",
-          "name": "Mail Plus",
-          "priceEUR": 4.99,
-          "priceXOF": 3200,
-          "description": "15 Go de stockage, messagerie sécurisée et domaine personnalisé"
-        },
-        {
-          "id": "unlimited",
-          "name": "Proton Unlimited",
-          "priceEUR": 12.99,
-          "priceXOF": 8500,
-          "description": "500 Go partagés, 15 adresses e-mail, VPN haute vitesse et gestionnaire de mots de passe",
-          "isDefault": true
-        }
-      ]
-    },
-    {
-      "id": "molotov-tv",
-      "name": "Molotov TV",
-      "category": "Streaming",
-      "priceEUR": 5.99,
-      "priceXOF": 4000,
-      "defaultPrice": 4000,
-      "duration": "1 mois",
-      "billingCycle": "monthly",
-      "color": "#FF5000",
-      "icon": "tv",
-      "logoUrl": "https://cdn.simpleicons.org/molotov/FF5000",
-      "storeLink": "https://www.molotov.tv",
-      "renewalLink": "https://www.molotov.tv",
-      "description": "La télévision française en direct et replay avec enregistreur cloud sur tous vos écrans",
-      "popular": false,
-      "isActive": true,
-      "price": 4000,
-      "plans": [
-        {
-          "id": "extra",
-          "name": "Molotov Extra",
-          "priceEUR": 5.99,
-          "priceXOF": 4000,
-          "description": "80+ chaînes TV en direct et replay, 4 écrans Full HD simultanés et contrôle du direct",
-          "isDefault": true
-        },
-        {
-          "id": "extended",
-          "name": "Molotov Extended",
-          "priceEUR": 10.99,
-          "priceXOF": 7200,
-          "description": "130+ chaînes thématiques dont divertissement, jeunesse, séries et documentaires"
-        }
-      ]
     }
   ]
 }
+Affichage de catalog.json
